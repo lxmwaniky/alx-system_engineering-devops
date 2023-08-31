@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 731 ./*
+chmod -R +x
