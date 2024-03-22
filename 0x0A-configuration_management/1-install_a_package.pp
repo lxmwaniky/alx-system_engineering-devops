@@ -1,9 +1,5 @@
-# Creates a file in /tmp.
-
-file { 'school':
-  name    => '/tmp/school',
-  mode    => '0744',
-  owner   => 'www-data',
-  group   => 'www-data',
-  content => 'I love Puppet',
+# Installs a package
+package { 'flask':
+  ensure   => '2.1.0',
+  provider => 'pip'
 }
