@@ -1,0 +1,63 @@
+repo_name: lxmwaniky/alx-system_engineering-devops
+report_id: bf67757c6a2693440953756560d9e55e
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-17T21:48:02+00:00'
+requested_by: lxmwaniky
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/lxmwaniky/alx-system_engineering-devops
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/lxmwaniky/alx-system_engineering-devops
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/lxmwaniky/alx-system_engineering-devops
+  detection_source: Repo Metadata
+- name: Puppet Labs
+  description: Server automation framework and application
+  website_url: http://puppetlabs.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/421/954f7381089ac290b4690c5ffd9dd7d3.png
+  detection_source_url: https://github.com/lxmwaniky/alx-system_engineering-devops
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/lxmwaniky/alx-system_engineering-devops
+  detection_source: Repo Metadata
