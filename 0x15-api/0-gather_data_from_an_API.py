@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""
-returns information about his/her TODO list progress.
-"""
+'''
+Python script that returns information using REST API
+'''
 import requests
 from sys import argv
 
@@ -13,15 +13,15 @@ if __name__ == "__main__":
         employeeName = req.json().get("name")
         if employeeName is not None:
             treq = requests.get(
-                "{}todos?userId={}"
-                .format(url, userId)).json()
-            totalTaskCount = len(treq)
-            doneTasks = []
-            for i in treq:
-                if i.get("completed") is True:
-                    doneTasks.append(i)
-            doneTasksCount = len(doneTasks)
+                "{}todos?userId={}".format(
+                    url, userId)).json()
+            totalTasks = len(treq)
+            completedTasks = []
+            for t in treq:
+                if t.get("completed") is True:
+                    completedTasks.append(t)
+            count = len(completedTasks)
             print("Employee {} is done with tasks({}/{}):"
-                  .format(employeeName, doneTasksCount, totalTaskCount))
-            for title in doneTasks:
+                  .format(employeeName, count, totalTasks))
+            for title in completedTasks:
                 print("\t {}".format(title.get("title")))
