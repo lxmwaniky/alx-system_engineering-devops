@@ -12,7 +12,9 @@ if __name__ == "__main__":
         req = requests.get("{}users/{}".format(url, userId))
         employeeName = req.json().get("name")
         if employeeName is not None:
-            treq = requests.get("{}todos?userId={}".format(url, userId)).json()
+            treq = requests.get(
+                "{}todos?userId={}"
+                .format(url, userId)).json()
             totalTaskCount = len(treq)
             doneTasks = []
             for i in treq:
