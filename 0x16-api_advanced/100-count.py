@@ -13,7 +13,8 @@ def count_words(subreddit, word_list, key_words={}, count={}, after=None):
         subreddit (str): The name of the subreddit.
         word_list (list): A list of words to count occurrences for.
         key_words (dict): A dictionary to store the count of each word.
-        count (dict): A dictionary to store the count of each word in word_list.
+        count (dict): A dictionary to store the count
+        of each word in word_list.
         after (str): A token to paginate through the posts.
 
     Returns:
