@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# script to restart gunicorn service gracefully
+pkill -HUP gunicorn
